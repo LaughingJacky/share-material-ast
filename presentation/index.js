@@ -351,8 +351,8 @@ export default class Presentation extends React.Component {
                 <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
                     <Image src={images.celebration} width='100%' />
                 </Slide>
-                <Slide transition={['fade']} bgColor="title" textColor="tertiary">
-                    <Heading size={1} fit textColor="title">Resources</Heading>
+                <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+                    <Heading size={1} textColor="title">Resources</Heading>
                     <List>
                         <ListItem><Link
                             href="https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md" target="_blank">babel-handbook
